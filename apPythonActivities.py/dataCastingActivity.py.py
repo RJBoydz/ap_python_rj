@@ -1,3 +1,7 @@
+# type()will return the data type of the value.
+numberOfCerealBones = 10.45
+print(type(numberOfCerealBones))
+
 # convert the fp;;owing datatypes into floats.
 a= 12
 b= 100
@@ -18,8 +22,8 @@ print(int(num_one + num_two))
 
 # modifty the following code to
 name_of_pet = "Spuny"
-age_of_pet = 10
+age_of_pet = str(10)
 
-print(str("this is my dog"+ name_of_pet+".He is"+age_of_pet"years old."))
+print("this is my dog" + name_of_pet + ".He is"+ age_of_pet"years old.")
 
 #insructor note
