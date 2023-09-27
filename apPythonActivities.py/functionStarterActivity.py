@@ -13,7 +13,16 @@
 #calculate(10,10)
 
 # 1. In your own words, describe what a function is
-∞ # a relation between a set of inputs having one output each.
+ "Function is a container for code that have 1 or more objectives"
+  "reusable code instructions"
+
+def starterFunction():
+    print("ian")# instruction 1
+    print(2+2)# instruction 2
+    print("all done the program")# instruction 3
+
+starterFunction()
+starterFunction()
 
 # 2. What is are function parameters and arguments and describe
 # the difference between the 2.
@@ -30,7 +39,7 @@ print('Hi Im RJ Boyd ', name , 'how is your day')
 K = 33
 L = 340
 P = 777
-print(K+L+P)
+print(K+L+P)[-]
 
 # 5. Write a function that will output a message to a user, telling them
 # what class they have next after this one. this code should use a 
