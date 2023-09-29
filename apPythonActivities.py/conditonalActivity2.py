@@ -9,13 +9,16 @@
 # your function should also alow the user to put in the time. The time should be 
 # formatted as a float. 
 
-Timeclock = 12.30
+# keywords: function, conditional, statement, argument, flat
+#clues: we need to send a message; if its time to or stay.
 
-def letOut():
-   if letOut > 11.30
-print('Class is over time t go')
-else:
-print('Class is not over')
+def letOut(leave_time):
+   if leave_time>11.30:
+      print('Class is over time t go')
+   else:
+      print('Class is not over')
+
+letOut(12.10)
 
 # 2. Write a function that uses a conditional statement. 
 # your function should determine what type a pet a user has depeding on the data provided by the user
@@ -25,18 +28,21 @@ print('Class is not over')
 # ELSE, if it is none of the animal sounds the function should return a message saying it doesn't 
 # know what the animal is. 
 
-pet = input('Type the sound your pet makes')
+# keywords = functions, conditional, statement, argument, return,
+# clues = we need to return a message depending on the condition.
+# clues = the prompt tells us what to look for - animal sounds/words.
 
-def animalYouWant():
-   if pet = 'woof'
-print('You get a dog')
-else
-print('I do not know what you want?')   
+def animalYouWant(pet):
+   pet = input('What sound is that?')
+   if pet == 'woof':
+      print('You get a dog')
+   elif pet== "meow":
+      print('you get cat')
+   
+   else:
+      print('I do not know what you want?')   
 
-if pet = 'meow'
-print('You get a cat')
-else
-print('I do not know what you want?')
+animalYouWant()
 
 # 3. Write a function that will take in a user name and height as parameters. 
 # Your function should evaluate and determine if the user is tall in enough to get on a roller coster.
@@ -44,11 +50,15 @@ print('I do not know what you want?')
 # and a message "welcome please buckle up".
 # ELSE if they they are not, return a message apologizing to the user saying they are not tall enough.
 
-name =  input('What is your name')
-height = input ('What is your age')
+
+
+name =  input('What is your name?')
+height = float(input('What is your age?'))
 
 def AHeight(name, height):
-   if height > 5.5
-   print('welcome you should buckle up'+ name)
-else
-print('Sorry you are not tall enough to ride' + name)
+   if height > 5.5:
+      print('welcome, you should buckle up '+ name)
+   else:
+      print('Sorry but you are not tall enough to ride ' + name)
+
+AHeight(name, height)
