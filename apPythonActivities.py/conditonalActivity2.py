@@ -50,8 +50,6 @@ animalYouWant()
 # and a message "welcome please buckle up".
 # ELSE if they they are not, return a message apologizing to the user saying they are not tall enough.
 
-
-
 name =  input('What is your name?')
 height = float(input('What is your age?'))
 
