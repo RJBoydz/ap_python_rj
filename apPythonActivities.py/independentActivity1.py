@@ -18,25 +18,32 @@ linkTwo= 'https://afternerd.com/blog/python-lists-for-absolute-beginners/'
 myfoodlist = ["Pizza", "Burger", "Cake", "Chicken", "Pop tarts"]
 print(myfoodlist)
 
+# What is a list
+#A list is a way to store multiple values in a variable 
+
 # 2. Find and print the specific item in each list based on their index in the list
 # HINT you will need to use a python built-in function that specifically lets you find items in a Python list. 
 
 # find and print index 3
 zoo_animals = ['wolf','giraffe','hippo','eagle','parrot']
-ZA = zoo_animals.index('eagle')
-print(ZA) 
 
+ZA = zoo_animals.index('eagle')
+
+print(ZA) 
 
 # find and print index 1
 sports_on_tv =['hockey','football','baseball','soccer','racing']
+
 SOT = sports_on_tv.index('football')
+
 print(SOT)
 
 # find and print index 0
 random_numbers = [10,100,12123, 1394, 1]
-RN = random_numbers.index(10)
-print(RN)
 
+RN = random_numbers.index(10)
+
+print(RN)
 
 # 3. Create a program that will only print out the odd numbers in this list. 
 
@@ -63,3 +70,47 @@ added_item = input("what item would you like to add")
 shopping_cart.append(added_item)
 
 print(shopping_cart)
+
+# Python list data type - a data type allows for storng multipule values in a variable.
+# a Python lists uses [] square bracket for the values
+number_list= [101, 10239, 10394, 10394] 
+string_list=['kevin']
+var_list=[number_list, string_list]
+
+print(var_list)
+
+apples = [2.00,'apple description']
+tvDinner =[4.00, 'sphagetti and meatballs']
+water =[3.00, '20 onces']
+
+self_checkout_scanner=[apples, tvDinner, water]
+print(len(self_checkout_scanner))
+
+# type of container
+# objects, stringer, other data types inside of list
+
+
+# create a function that will add a new list item to a checkour cart
+# the user should be able to enter the name of the items and the price
+# your functuon should add the name of the item to the list of items
+# and also add the price to the item to the total price of the items.
+# including yhe price of the new item
+
+list_of_items=['apple','organe', 'book', 'new item']
+apple_price= 1.00
+orange_price = 3.00
+book_price = 10.00
+
+def shopping():
+  add = input('Would you like to add more to your shopping list')
+  list_of_items.append(add)
+  add_item= input('how much does it cost')
+  print(list_of_items)
+  print(list_of_items, + 'all will add up to ')
+  all_price = (apple_price + orange_price + book_price + add_item)
+  print(str(all_price))
+  
+  shopping():
+
+
+
