@@ -96,21 +96,29 @@ print(len(self_checkout_scanner))
 # and also add the price to the item to the total price of the items.
 # including yhe price of the new item
 
-list_of_items=['apple','organe', 'book', 'new item']
+list_of_items=['apple','organe', 'book']
 apple_price= 1.00
 orange_price = 3.00
 book_price = 10.00
 
-def shopping():
-  add = input('Would you like to add more to your shopping list')
-  list_of_items.append(add)
-  add_item= input('how much does it cost')
+def On_shopping():
+  add_item= input('enter name of new item')
+  add_item= float( input('how much does it cost'))
+  list_of_items.append(add_item)
+  total_price= apple_price + orange_price + book_price + add_item
+
+
+  print('here are allof your items:')   
   print(list_of_items)
-  print(list_of_items, + 'all will add up to ')
-  all_price = (apple_price + orange_price + book_price + add_item)
-  print(str(all_price))
+  print('total price below:')
+  print(total_price)
+   
+  On_shopping()     
+
+  #print(list_of_items, + 'all will add up to ')
+  #all_price = (apple_price + orange_price + book_price + add_item)
+  #print(str(all_price))
   
-  shopping():
 
 
 
