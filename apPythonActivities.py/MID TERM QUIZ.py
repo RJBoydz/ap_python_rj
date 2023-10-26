@@ -170,7 +170,7 @@ giftShopping=['xbox','sneakers','necklace','clothing','laptop','gift card']
 upToNumber = 30
 
 upToNumver = range(30)
-for b in e:
+for b in upToNumver:
   print(b)
 
 
