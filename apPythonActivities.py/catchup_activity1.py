@@ -16,7 +16,7 @@ print(a)
 T = int("12")
 print(T)
 
-# 2. provide three (3) code examples of how to use a conditional statement. you will need to use one (1) of each of the following
+# 2. provide three (3) code examples of how to use you will need to use one (1) of each of the following
 # operators in your examples: assignment operator, the logical operator and comparison operator.
 
 #If: The if statement executes some code if one condition is true.
