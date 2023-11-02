@@ -1,0 +1,4 @@
+1. The phase version control give the users the ability to servers in multiple locations to run different versions on different sites, 
+even while those versions are being updated at the same time.
+
+2. Three (3) things are inheritance money, a vehicle, or lands.
