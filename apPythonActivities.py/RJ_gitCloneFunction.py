@@ -2,15 +2,15 @@ def fun():
     sports = input('do you like basketball or football')
     if sports == 'basketball':
         print('NIce a like being that court' + input(bool('do you play')))
-        if True:
+        if sports == True:
             print('great maybe we can play together?')
-            if False:
+            if sports == False:
                 print('Well you should try to play it is very fun')
             elif sports == ' football':
                 print('nice I love running on that field'+ input(bool('do you play')))
-                if True:
+                if sports == True:
                     print('great maybe we can play together')
-                    if False:
+                    if sports == False:
                         print('Well you should try to play it is very fun')
                     else:
                         print('Do not understnad your answer?')
