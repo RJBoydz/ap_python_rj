@@ -80,7 +80,7 @@ def preference():
                         print("Sorry,can't find that movie") 
 
         elif movie == 'comedy':
-                print('Home alone' 'Strays', 'Good burger')
+                print('Home alone', ' Strays', ' Good burger')
                 comedyselection = input('Which movie would you like to see? ') 
                 if fun[0] == comedyselection:
                     print('When bratty 8-year-old Kevin McCallister (Macaulay Culkin) acts out the night before a family trip to Paris, his mother (Catherine O Hara makes him sleep in the attic. After the McCallisters mistakenly leave for the airport without Kevin, he awakens to an empty house and assumes his wish to have no family has come true. But his excitement sours when he realizes that two con men (Joe Pesci, Daniel Stern) plan to rob the McCallister residence, and that he alone must protect the family home.')
